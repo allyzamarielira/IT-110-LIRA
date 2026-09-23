@@ -4,12 +4,77 @@
     <title>ACTIVITY 2</title>
 </head>  
 <body>
-    <div id="2tee">
-        <img scr="teetee.jpg" alt="Wanpichit" width="100" height="150">
+    <div id="image"> 
+        <h2>I. Images</h2>
+        <p>These are my sample images used in this activity:</p>
+        <h4>First Image</h4>
+        <img src="2tee.jpg" alt="Wanpichit">
+        <h4>Second Image</h4>
+        <img src="waah.jpg" width="150" height="200">
+        <h4>Third Image</h4>
+        <figure>
+            <img src="mamioni.jpg">
+            <figcaption>Mami Oni is shokedsivility.</figcaption>
+        </figure>
     </div>
 
+    <h2>II. Hyperlinks</h2>
+    <ul>
+        <li><a href="activity.html">My Activity</a></li>
+        <li><a href="https://www.google.com" target="_blank">Open New Tab</a></li>
+        <li><a href="mailto:allyzamarie.lira@carsu.edu.ph">Email Me</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
 
+    <div id="Multimedia">
+        <h2>III. Multimedia</h2>
+        <p>Below are the audio and video embedded in this page:</p>
+        <h4>Play audio...</h4>
+        <audio controls>
+            <source src="fartsound.ogg" type="audio/ogg">
+            <source src="fartsound.mp3" type="audio/mpeg">
+            Browser does not support the audio element. 
+            
+        </audio>
+        <br>
 
+        <h4>Play video...</h4>
+        <video width="320" height="240" controls>
+            <source src="tulips.mp4" type="video/mp4">
+            <source src="tulips.ogg" type="video/ogg">
+            Browser does not support the video tag. 
+        </video>
+    </div>
+    
+    <div id="tags">
+        <h2>IV. Useful Tags</h2>
+        <!--Display preformatted text that keeps spaces and line breaks.-->
+        <pre>
+                    STUDENT INFO
+            Name : Allyza Marie M. Lira
+            Program : BSIT
+            Course : IT - 110
+            Section : EULM1
+        </pre>
 
+        <!--Add horizontal line to visually separate sections.-->
+        <hr>
+
+        <!--Highlight important text-->
+        <strong>Add me on Roblox (@friedricechickenpork)</strong>
+
+        <!--Display text in smaller font size.-->
+        <small>@copy; 2026 Allyza Marie M. Lira. All rights reserved.</small>
+    </div>
+    
+    <!--
+        The <div> with id="image" is the parent of the <h2> tag that says "I. Images", 
+        which acts as the title for everything inside the <div>, and it is also the parent     
+        of the <img> tag like with src="2tee.jpg", showing that the heading and the image are siblings that
+        share the same parent. In <div> with id="tags" is the parent of the <pre> tag, which is used
+        to show text exactly as it was typed, keeping exactly as it was typed, keeping its spaces and line breaks. 
+        The same <div> is also the parent of the <hr> tag which adds a horizontal line to separate sections on   
+        the page.            
+    -->
 </body>
 </html>
